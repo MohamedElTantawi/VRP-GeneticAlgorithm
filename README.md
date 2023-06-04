@@ -22,4 +22,6 @@ We would like to express our gratitude to the "Fleet" team for their contributio
 - Maram Benamer
 - Salma Kish
 - Haidy Tohfa
+
+
 Their expertise, dedication, and collaborative spirit were instrumental in the development and success of this implementation of the Vehicle Routing Problem using a Genetic Algorithm. We extend our heartfelt thanks to each team member for their valuable contributions.
