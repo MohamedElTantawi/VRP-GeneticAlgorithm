@@ -7,6 +7,14 @@ The VRP-GeneticAlgorithm project aims to solve the VRP using a genetic algorithm
 - Optimize vehicle routes to minimize the total distance traveled.
 - Support for multiple depots and multiple vehicles.
 - Genetic algorithm implementation with customizable parameters.
+### First Part: Genetic Algorithm
+A full standard genetic algorithm is implemented using Python.
+### Second Part: Variants over the standard GA
+Modify the standard version of genetic algorithms developed in the previous step, by choosing only one of the following:
+
+Genetic Algorithm with Varying Population Size The idea is to introduce the concept of "ageing" into the population of chromosomes. Each individual will get a "life-expectancy" value, which directly depends on the fitness. Parents are selected randomly, without paying attention to their fitness, but at each step all chromosomes gain +1 to their age, and those reaching their life-expectancy are removed from the population. It is very important to design a good function calculating life-expectancy, so that better individuals survive during more generations, and therefore get more chances to be selected for crossover.
+
+Cellular Genetic Algorithm The idea is to introduce the concept of "neighbourhood" into the population of chromosomes (for instance, placing them into a grid-like arrangement), in such a way that each individual can only perform crossover with its direct neighbours.
 ## Contributing
 ### Github
 Contributions to this project are welcome. If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
