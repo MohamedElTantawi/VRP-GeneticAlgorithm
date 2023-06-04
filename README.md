@@ -8,11 +8,11 @@ The VRP-GeneticAlgorithm project aims to solve the VRP using a genetic algorithm
 - Support for multiple depots and multiple vehicles.
 - Genetic algorithm implementation with customizable parameters.
 ## Contributing
+### Github
 Contributions to this project are welcome. If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
+### Blog 
+Visit our blog at:
+- https://cogsci6.wordpress.com/ 
 ## Acknowledgments
 We would like to express our gratitude to the "Fleet" team for their contributions to this project. The team members include:
 
